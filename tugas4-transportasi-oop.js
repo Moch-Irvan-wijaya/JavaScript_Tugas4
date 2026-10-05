@@ -112,15 +112,15 @@ function tampilkanPelangganMenyewa(daftarPelanggan) {
 // PROGRAM UTAMA
 
 // buat objek kendaraan
-let mobil1 = new Mobil("Toyota Avanza", "B 1234 ABC", 4);
-let motor1 = new Motor("Honda Vario", "B 5678 DEF", "Matic");
-let bus1 = new Bus("Hino", "B 9012 GHI", 30);
+let mobil1 = new Mobil("Toyota Avanza", "B 1923 UHH", 4);
+let motor1 = new Motor("Honda Vario", "B 4289 MIW", "Matic");
+let bus1 = new Bus("Hino", "B 3429 BRU", 30);
 
 // buat objek pelanggan
-let pelanggan1 = new Pelanggan("Budi", "081234567890");
-let pelanggan2 = new Pelanggan("Siti", "082345678901");
-let pelanggan3 = new Pelanggan("Andi", "083456789012");
-let pelanggan4 = new Pelanggan("Dewi", "084567890123");
+let pelanggan1 = new Pelanggan("Irvan", "083295823134");
+let pelanggan2 = new Pelanggan("Wijaya", "082135829313");
+let pelanggan3 = new Pelanggan("Ilyas", "083493991831");
+let pelanggan4 = new Pelanggan("Jhon", "085392390582");
 
 // simpan semua pelanggan ke dalam array
 let daftarPelanggan = [pelanggan1, pelanggan2, pelanggan3, pelanggan4];
