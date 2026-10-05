@@ -1,6 +1,6 @@
 // Tugas Pertemuan 4 - Sistem Manajemen Transportasi (OOP)
 
-// ===== CLASS KENDARAAN (parent class) =====
+// CLASS KENDARAAN (parent class)
 // dipakai sebagai dasar buat semua jenis kendaraan
 class Kendaraan {
   constructor(merek, plat) {
@@ -14,7 +14,7 @@ class Kendaraan {
   }
 }
 
-// ===== CLASS MOBIL (child class) =====
+// CLASS MOBIL (child class)
 // extends = mewarisi semua isi class Kendaraan
 class Mobil extends Kendaraan {
   constructor(merek, plat, jumlahPintu) {
@@ -28,7 +28,7 @@ class Mobil extends Kendaraan {
   }
 }
 
-// ===== CLASS MOTOR (child class) =====
+// CLASS MOTOR (child class)
 class Motor extends Kendaraan {
   constructor(merek, plat, tipe) {
     super(merek, plat);
@@ -41,7 +41,7 @@ class Motor extends Kendaraan {
   }
 }
 
-// ===== CLASS BUS (child class) =====
+// CLASS BUS (child class)
 class Bus extends Kendaraan {
   constructor(merek, plat, kapasitas) {
     super(merek, plat);
@@ -54,7 +54,7 @@ class Bus extends Kendaraan {
   }
 }
 
-// ===== CLASS PELANGGAN =====
+// CLASS PELANGGAN
 // properti: nama, nomorTelepon, kendaraanDisewa
 class Pelanggan {
   constructor(nama, nomorTelepon) {
@@ -85,7 +85,7 @@ class Pelanggan {
   }
 }
 
-// ===== SISTEM: tampilkan pelanggan yang sedang menyewa =====
+// SISTEM: tampilkan pelanggan yang sedang menyewa
 function tampilkanPelangganMenyewa(daftarPelanggan) {
   console.log("Daftar Pelanggan yang Sedang Menyewa:");
   let jumlah = 0;
@@ -109,7 +109,7 @@ function tampilkanPelangganMenyewa(daftarPelanggan) {
   console.log("----------------------------------------");
 }
 
-// ===== PROGRAM UTAMA =====
+// PROGRAM UTAMA
 
 // buat objek kendaraan
 let mobil1 = new Mobil("Toyota Avanza", "B 1234 ABC", 4);
